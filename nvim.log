@@ -1,0 +1,4 @@
+WRN 2026-04-12T20:20:49.056 ?.43154    server_start:197: Failed to start server: operation not permitted: /var/folders/5t/5fw551nd47v02q7rqkbx8g7h0000gn/T/nvim.krunal/VnQXZs/nvim.43154.0
+WRN 2026-05-09T20:02:50.959 ?.73158    server_start:197: Failed to start server: operation not permitted: /var/folders/5t/5fw551nd47v02q7rqkbx8g7h0000gn/T/nvim.krunal/vQlyJl/nvim.73158.0
+WRN 2026-05-09T20:02:50.959 ?.73159    server_start:197: Failed to start server: operation not permitted: /var/folders/5t/5fw551nd47v02q7rqkbx8g7h0000gn/T/nvim.krunal/Cw6PMN/nvim.73159.0
+WRN 2026-05-09T20:03:20.283 ?.73255    server_start:197: Failed to start server: operation not permitted: /var/folders/5t/5fw551nd47v02q7rqkbx8g7h0000gn/T/nvim.krunal/QzbcQI/nvim.73255.0

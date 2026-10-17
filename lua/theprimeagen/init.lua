@@ -43,16 +43,20 @@ autocmd('TextYankPost', {
 autocmd({"BufWritePre"}, {
     group = ThePrimeagenGroup,
     pattern = "*",
-    command = [[%s/\s\+$//e]],
+    callback = function()
+        if vim.bo.modifiable then
+            vim.cmd([[%s/\s\+$//e]])
+        end
+    end,
 })
 
 autocmd('BufEnter', {
     group = ThePrimeagenGroup,
     callback = function()
         if vim.bo.filetype == "zig" then
-            vim.cmd.colorscheme("tokyonight-night")
+            pcall(vim.cmd.colorscheme, "rose-pine-main")
         else
-            vim.cmd.colorscheme("rose-pine-moon")
+            pcall(vim.cmd.colorscheme, "rose-pine-moon")
         end
     end
 })
